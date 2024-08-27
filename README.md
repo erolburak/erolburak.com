@@ -1,2 +1,23 @@
-# erolburak.me
-This project is used for the https://erolburak.me website.
+# EROLBURAK.ME
+
+## NAME
+erolburak.me
+
+## DESCRIPTION
+**erolburak.me** is my own project, which is used to create a static website that I developed using [Ignite](https://github.com/twostraws/Ignite). The website contains my portfolio as a Senior iOS Developer and information about me. The portfolio area lists my private apps, which can be viewed publicly on my [GitHub Profile](https://github.com/erolburak), but also apps that I have worked on as an employee.
+
+## SETUP
+- IDE: Xcode
+- [SPM](https://github.com/swiftlang/swift-package-manager)
+- [SwiftFormat](https://github.com/nicklockwood/SwiftFormat)
+- CI/CD: [GitHub Actions](https://docs.github.com/en/actions)
+
+## APIS
+- Swift
+- [Ignite](https://github.com/twostraws/Ignite)
+
+## SCREENSHOTS
+Screenshots for this project are available on my [website](https://erolburak.me/en/portfolio).
+
+## HAVE FUN :)
+<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDI3emQxaHl0bm5uZmNsaXRtNzNjcDRvN2s3OXV4NmFxMnR3d2didyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Ws6T5PN7wHv3cY8xy8/giphy.gif"/>
