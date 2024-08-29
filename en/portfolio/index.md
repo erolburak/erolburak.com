@@ -19,17 +19,17 @@ title: PORTFOLIO
         <div class="wrapper-portfolio">
             <div class="wrapper-portfolio-screenshot-title">
                 <div class="wrapper-screenshot">
-                    <img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
                     <img src="/images/screenshots/en/erolburak.me1.png" class="screenshot-image"/>
                     <div class="wrapper-screenshot-overlay"/></div>
+                    <img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
                 </div>
                 <p class="screenshot-title">Open Homescreen</p>
             </div>
             <div class="wrapper-portfolio-screenshot-title">
                 <div class="wrapper-screenshot">
-                    <img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
                     <img src="/images/screenshots/en/erolburak.me2.png" class="screenshot-image"/>
                     <div class="wrapper-screenshot-overlay"/></div>
+                    <img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
                 </div>
                 <p class="screenshot-title">Browse Portfolio</p>
             </div>
@@ -37,9 +37,9 @@ title: PORTFOLIO
         <div class="wrapper-portfolio">
             <div class="wrapper-portfolio-screenshot-title">
                 <div class="wrapper-screenshot">
-                    <img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
                     <img src="/images/screenshots/en/erolburak.me3.png" class="screenshot-image"/>
                     <div class="wrapper-screenshot-overlay"/></div>
+                    <img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
                 </div>
                 <p class="screenshot-title">Find out more about me</p>
             </div>
@@ -63,17 +63,17 @@ title: PORTFOLIO
         <div class="wrapper-portfolio">
             <div class="wrapper-portfolio-screenshot-title">
                 <div class="wrapper-screenshot">
-                    <img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
                     <img src="/images/screenshots/en/bobbysnews1.png" class="screenshot-image"/>
                     <div class="wrapper-screenshot-overlay"/></div>
+                    <img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
                 </div>
                 <p class="screenshot-title">Browse headlines</p>
             </div>
             <div class="wrapper-portfolio-screenshot-title">
                 <div class="wrapper-screenshot">
-                    <img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
                     <img src="/images/screenshots/en/bobbysnews2.png" class="screenshot-image"/>
                     <div class="wrapper-screenshot-overlay"/></div>
+                    <img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
                 </div>
                 <p class="screenshot-title">Select or change country</p>
             </div>
@@ -81,17 +81,17 @@ title: PORTFOLIO
         <div class="wrapper-portfolio">
             <div class="wrapper-portfolio-screenshot-title">
                 <div class="wrapper-screenshot">
-                    <img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
                     <img src="/images/screenshots/en/bobbysnews3.png" class="screenshot-image"/>
                     <div class="wrapper-screenshot-overlay"/></div>
+                    <img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
                 </div>
                 <p class="screenshot-title">Find out more about headlines</p>
             </div>
             <div class="wrapper-portfolio-screenshot-title">
                 <div class="wrapper-screenshot">
-                    <img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
                     <img src="/images/screenshots/en/bobbysnews4.png" class="screenshot-image"/>
                     <div class="wrapper-screenshot-overlay"/></div>
+                    <img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
                 </div>
                 <p class="screenshot-title">Visit the source of headline</p>
             </div>
@@ -115,17 +115,17 @@ title: PORTFOLIO
         <div class="wrapper-portfolio">
             <div class="wrapper-portfolio-screenshot-title">
                 <div class="wrapper-screenshot">
-                    <img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
                     <img src="/images/screenshots/en/bobbyscounter1.png" class="screenshot-image"/>
                     <div class="wrapper-screenshot-overlay"/></div>
+                    <img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
                 </div>
                 <p class="screenshot-title">Edit current counter</p>
             </div>
             <div class="wrapper-portfolio-screenshot-title">
                 <div class="wrapper-screenshot">
-                    <img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
                     <img src="/images/screenshots/en/bobbyscounter2.png" class="screenshot-image"/>
                     <div class="wrapper-screenshot-overlay"/></div>
+                    <img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
                 </div>
                 <p class="screenshot-title">Open charts</p>
             </div>
@@ -133,17 +133,17 @@ title: PORTFOLIO
         <div class="wrapper-portfolio">
             <div class="wrapper-portfolio-screenshot-title">
                 <div class="wrapper-screenshot">
-                    <img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
                     <img src="/images/screenshots/en/bobbyscounter3.png" class="screenshot-image"/>
                     <div class="wrapper-screenshot-overlay"/></div>
+                    <img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
                 </div>
                 <p class="screenshot-title">Show average of the last 7, 30 and 90 counter values</p>
             </div>
             <div class="wrapper-portfolio-screenshot-title">
                 <div class="wrapper-screenshot">
-                    <img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
                     <img src="/images/screenshots/en/bobbyscounter4.png" class="screenshot-image"/>
                     <div class="wrapper-screenshot-overlay"/></div>
+                    <img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
                 </div>
                 <p class="screenshot-title">Open and edit list of all counters</p>
             </div>
@@ -151,9 +151,9 @@ title: PORTFOLIO
         <div class="wrapper-portfolio">
             <div class="wrapper-portfolio-screenshot-title">
                 <div class="wrapper-screenshot">
-                    <img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
                     <img src="/images/screenshots/en/bobbyscounter5.png" class="screenshot-image"/>
                     <div class="wrapper-screenshot-overlay"/></div>
+                    <img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
                 </div>
                 <p class="screenshot-title">Edit today's counter</p>
             </div>
@@ -189,17 +189,17 @@ title: PORTFOLIO
         <div class="wrapper-portfolio">
             <div class="wrapper-portfolio-screenshot-title">
                 <div class="wrapper-screenshot">
-                    <img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
                     <img src="/images/screenshots/en/infield1.png" class="screenshot-image"/>
                     <div class="wrapper-screenshot-overlay"/></div>
+                    <img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
                 </div>
                 <p class="screenshot-title">Browse and favorite festivals and events</p>
             </div>
             <div class="wrapper-portfolio-screenshot-title">
                 <div class="wrapper-screenshot">
-                    <img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
                     <img src="/images/screenshots/en/infield2.png" class="screenshot-image"/>
                     <div class="wrapper-screenshot-overlay"/></div>
+                    <img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
                 </div>
                 <p class="screenshot-title">Browse timetables and favorite programs</p>
             </div>
@@ -207,17 +207,17 @@ title: PORTFOLIO
         <div class="wrapper-portfolio">
             <div class="wrapper-portfolio-screenshot-title">
                 <div class="wrapper-screenshot">
-                    <img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
                     <img src="/images/screenshots/en/infield3.png" class="screenshot-image"/>
                     <div class="wrapper-screenshot-overlay"/></div>
+                    <img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
                 </div>
                 <p class="screenshot-title">Find out more about artists and listen to titles</p>
             </div>
             <div class="wrapper-portfolio-screenshot-title">
                 <div class="wrapper-screenshot">
-                    <img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
                     <img src="/images/screenshots/en/infield4.png" class="screenshot-image"/>
                     <div class="wrapper-screenshot-overlay"/></div>
+                    <img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
                 </div>
                 <p class="screenshot-title">Find out more about festivals and events and buy tickets</p>
             </div>
@@ -241,17 +241,17 @@ title: PORTFOLIO
         <div class="wrapper-portfolio">
             <div class="wrapper-portfolio-screenshot-title">
                 <div class="wrapper-screenshot">
-                    <img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
                     <img src="/images/screenshots/en/berlinerphilharmoniker1.png" class="screenshot-image"/>
                     <div class="wrapper-screenshot-overlay"/></div>
+                    <img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
                 </div>
                 <p class="screenshot-title">Browse concerts</p>
             </div>
             <div class="wrapper-portfolio-screenshot-title">
                 <div class="wrapper-screenshot">
-                    <img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
                     <img src="/images/screenshots/en/berlinerphilharmoniker2.png" class="screenshot-image"/>
                     <div class="wrapper-screenshot-overlay"/></div>
+                    <img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
                 </div>
                 <p class="screenshot-title">Find out more about concerts</p>
             </div>
@@ -259,17 +259,17 @@ title: PORTFOLIO
         <div class="wrapper-portfolio">
             <div class="wrapper-portfolio-screenshot-title">
                 <div class="wrapper-screenshot">
-                    <img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
                     <img src="/images/screenshots/en/berlinerphilharmoniker3.png" class="screenshot-image"/>
                     <div class="wrapper-screenshot-overlay"/></div>
+                    <img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
                 </div>
                 <p class="screenshot-title">Stream concerts</p>
             </div>
             <div class="wrapper-portfolio-screenshot-title">
                 <div class="wrapper-screenshot">
-                    <img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
                     <img src="/images/screenshots/en/berlinerphilharmoniker4.png" class="screenshot-image"/>
                     <div class="wrapper-screenshot-overlay"/></div>
+                    <img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
                 </div>
                 <p class="screenshot-title">Browse live streams</p>
             </div>
