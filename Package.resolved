@@ -1,5 +1,5 @@
 {
-  "originHash" : "aa6302ce37ecf9e3e3bf3c36d2057c657e61c0e5b17de81bf88d28a4d2fac09f",
+  "originHash" : "c7c65f2b6deca8bd8a1d309cf8e4197436b71694ff3f1fa10ceed5926cdcf0e9",
   "pins" : [
     {
       "identity" : "codextended",
@@ -40,7 +40,7 @@
     {
       "identity" : "publish",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/Ze0nC/Publish",
+      "location" : "https://github.com/Ze0nC/Publish.git",
       "state" : {
         "branch" : "Multi-Language",
         "revision" : "ed73c8175c20ded359dac7fc58c5ced5e353c49b"
@@ -62,6 +62,15 @@
       "state" : {
         "revision" : "801c2878e4c6c5baf32fe132e1f3f3af6f9fd1b0",
         "version" : "0.4.0"
+      }
+    },
+    {
+      "identity" : "swiftformat",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/nicklockwood/SwiftFormat.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "8407445116401a1bcd55a33fe7b0bddbe2f045b8"
       }
     }
   ],
