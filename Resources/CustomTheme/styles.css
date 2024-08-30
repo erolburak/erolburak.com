@@ -98,6 +98,12 @@ p {
     width: 75%;
 }
 
+.burakerol-image,
+.iPhone-image,
+.screenshot-image {
+    pointer-events: none;
+}
+
 .collapse-label-toggle:after {
     border-block: 6px solid transparent;
     border-left: 8px solid;
@@ -229,7 +235,7 @@ p {
     background: red;
     background-color: #000;
     border-radius: 50% 50% 0% 0%;
-    height: 7.5%;
+    height: 7.6%;
     width: 92%;
 }
 
