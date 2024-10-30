@@ -23,7 +23,7 @@ title: PORTFOLIO
                     <div class="wrapper-screenshot-overlay"/></div>
                     <img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
                 </div>
-                <p class="screenshot-title">Open Homescreen</p>
+                <p class="screenshot-title">Open homescreen</p>
             </div>
             <div class="wrapper-portfolio-screenshot-title">
                 <div class="wrapper-screenshot">
@@ -31,7 +31,7 @@ title: PORTFOLIO
                     <div class="wrapper-screenshot-overlay"/></div>
                     <img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
                 </div>
-                <p class="screenshot-title">Browse Portfolio</p>
+                <p class="screenshot-title">Browse portfolio</p>
             </div>
         </div>
         <div class="wrapper-portfolio">
@@ -161,15 +161,47 @@ title: PORTFOLIO
     </div>
 </div>
 <div class="wrapper-portfolio-header">
-    <h1>TBA (CURRENTLY EMPLOYED)</h1>
+    <h1>BARMER eCare</h1>
+    <div class="wrapper-links-right">
+        <a href="https://apps.apple.com/us/app/barmer-ecare/id1509460198" target="_blank" class="wrapper-link-image-portfolio">
+            <img src="/images/appstore.svg" class="link-image-portfolio-header">
+        </a>
+    </div>
 </div>
 <br></br>
-<p>TBA. For legal reasons, I'm not allowed to give detailed information or show screenshots because the app hasn't been published yet.</p>
+<p>The <b>BARMER eCare</b> app represents the electronic patient records and is available exclusively to BARMER insurance holders. Medical, laboratory or surgery reports can be saved and shared with doctors if necessary. This app is published in the <a href="https://apps.apple.com/us/app/barmer-ecare/id1509460198" target="_blank">App Store</a>.</p>
 <div class="wrapper-collapse">
     <input id="collapse4" class="collapse-toggle" type="checkbox">
     <label for="collapse4" class="collapse-label-toggle">SHOW SCREENSHOTS</label>
     <div class="wrapper-collapse-content">
-        <p class="screenshot-title">TBA</p>
+        <div class="wrapper-portfolio">
+            <div class="wrapper-portfolio-screenshot-title">
+                <div class="wrapper-screenshot">
+                    <img src="/images/screenshots/de/barmerecare1.png" class="screenshot-image"/>
+                    <div class="wrapper-screenshot-overlay"/></div>
+                    <img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
+                </div>
+                <p class="screenshot-title">Browse homescreen</p>
+            </div>
+            <div class="wrapper-portfolio-screenshot-title">
+                <div class="wrapper-screenshot">
+                    <img src="/images/screenshots/de/barmerecare2.png" class="screenshot-image"/>
+                    <div class="wrapper-screenshot-overlay"/></div>
+                    <img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
+                </div>
+                <p class="screenshot-title">Browse records</p>
+            </div>
+        </div>
+        <div class="wrapper-portfolio">
+            <div class="wrapper-portfolio-screenshot-title">
+                <div class="wrapper-screenshot">
+                    <img src="/images/screenshots/de/barmerecare3.png" class="screenshot-image"/>
+                    <div class="wrapper-screenshot-overlay"/></div>
+                    <img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
+                </div>
+                <p class="screenshot-title">Browse services</p>
+            </div>
+        </div>
     </div>
 </div>
 <div class="wrapper-portfolio-header">
@@ -189,7 +221,7 @@ title: PORTFOLIO
         <div class="wrapper-portfolio">
             <div class="wrapper-portfolio-screenshot-title">
                 <div class="wrapper-screenshot">
-                    <img src="/images/screenshots/en/claasConnectFarmManagement1.png" class="screenshot-image"/>
+                    <img src="/images/screenshots/en/claasconnectfarmmanagement1.png" class="screenshot-image"/>
                     <div class="wrapper-screenshot-overlay"/></div>
                     <img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
                 </div>
@@ -197,7 +229,7 @@ title: PORTFOLIO
             </div>
             <div class="wrapper-portfolio-screenshot-title">
                 <div class="wrapper-screenshot">
-                    <img src="/images/screenshots/en/claasConnectFarmManagement2.png" class="screenshot-image"/>
+                    <img src="/images/screenshots/en/claasconnectfarmmanagement2.png" class="screenshot-image"/>
                     <div class="wrapper-screenshot-overlay"/></div>
                     <img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
                 </div>
@@ -207,7 +239,7 @@ title: PORTFOLIO
         <div class="wrapper-portfolio">
             <div class="wrapper-portfolio-screenshot-title">
                 <div class="wrapper-screenshot">
-                    <img src="/images/screenshots/en/claasConnectFarmManagement3.png" class="screenshot-image"/>
+                    <img src="/images/screenshots/en/claasconnectfarmmanagement3.png" class="screenshot-image"/>
                     <div class="wrapper-screenshot-overlay"/></div>
                     <img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
                 </div>

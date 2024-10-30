@@ -161,15 +161,47 @@ title: PORTFOLIO
     </div>
 </div>
 <div class="wrapper-portfolio-header">
-    <h1>TBA (AKTUELL BESCHÄFTIGT)</h1>
+    <h1>BARMER eCare</h1>
+    <div class="wrapper-links-right">
+        <a href="https://apps.apple.com/de/app/barmer-ecare/id1509460198" target="_blank" class="wrapper-link-image-portfolio">
+            <img src="/images/appstore.svg" class="link-image-portfolio-header">
+        </a>
+    </div>
 </div>
 <br></br>
-<p>TBA. Aus rechtlichen Gründen darf ich noch keine detaillierten Informationen geben oder Screenshots zeigen, da die App noch nicht veröffentlicht wurde.</p>
+<p>Die <b>BARMER eCare</b> App stellt die elektronische Patientenakte dar und steht exklusiv BARMER-Versicherten zur Verfügung. Arztbriefe, Laborbefunde oder OP-Berichte können abgespeichert und bei Bedarf mit Ärztinnen und Ärzten geteilt werden. Diese App ist im <a href="https://apps.apple.com/de/app/barmer-ecare/id1509460198" target="_blank">App Store</a> veröffentlicht.</p>
 <div class="wrapper-collapse">
     <input id="collapse4" class="collapse-toggle" type="checkbox">
     <label for="collapse4" class="collapse-label-toggle">SCREENSHOTS ANZEIGEN</label>
     <div class="wrapper-collapse-content">
-        <p class="screenshot-title">TBA</p>
+        <div class="wrapper-portfolio">
+            <div class="wrapper-portfolio-screenshot-title">
+                <div class="wrapper-screenshot">
+                    <img src="/images/screenshots/de/barmerecare1.png" class="screenshot-image"/>
+                    <div class="wrapper-screenshot-overlay"/></div>
+                    <img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
+                </div>
+                <p class="screenshot-title">Startseite durchstöbern</p>
+            </div>
+            <div class="wrapper-portfolio-screenshot-title">
+                <div class="wrapper-screenshot">
+                    <img src="/images/screenshots/de/barmerecare2.png" class="screenshot-image"/>
+                    <div class="wrapper-screenshot-overlay"/></div>
+                    <img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
+                </div>
+                <p class="screenshot-title">Akte durchstöbern</p>
+            </div>
+        </div>
+        <div class="wrapper-portfolio">
+            <div class="wrapper-portfolio-screenshot-title">
+                <div class="wrapper-screenshot">
+                    <img src="/images/screenshots/de/barmerecare3.png" class="screenshot-image"/>
+                    <div class="wrapper-screenshot-overlay"/></div>
+                    <img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
+                </div>
+                <p class="screenshot-title">Services durchstöbern</p>
+            </div>
+        </div>
     </div>
 </div>
 <div class="wrapper-portfolio-header">
@@ -189,7 +221,7 @@ title: PORTFOLIO
         <div class="wrapper-portfolio">
             <div class="wrapper-portfolio-screenshot-title">
                 <div class="wrapper-screenshot">
-                    <img src="/images/screenshots/de/claasConnectFarmManagement1.png" class="screenshot-image"/>
+                    <img src="/images/screenshots/de/claasconnectfarmmanagement1.png" class="screenshot-image"/>
                     <div class="wrapper-screenshot-overlay"/></div>
                     <img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
                 </div>
@@ -197,7 +229,7 @@ title: PORTFOLIO
             </div>
             <div class="wrapper-portfolio-screenshot-title">
                 <div class="wrapper-screenshot">
-                    <img src="/images/screenshots/de/claasConnectFarmManagement2.png" class="screenshot-image"/>
+                    <img src="/images/screenshots/de/claasconnectfarmmanagement2.png" class="screenshot-image"/>
                     <div class="wrapper-screenshot-overlay"/></div>
                     <img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
                 </div>
@@ -207,7 +239,7 @@ title: PORTFOLIO
         <div class="wrapper-portfolio">
             <div class="wrapper-portfolio-screenshot-title">
                 <div class="wrapper-screenshot">
-                    <img src="/images/screenshots/de/claasConnectFarmManagement3.png" class="screenshot-image"/>
+                    <img src="/images/screenshots/de/claasconnectfarmmanagement3.png" class="screenshot-image"/>
                     <div class="wrapper-screenshot-overlay"/></div>
                     <img src="/images/screenshots/iPhone.png" class="iPhone-image"/>
                 </div>
