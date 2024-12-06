@@ -352,3 +352,5 @@ title: PORTFOLIO
         </div>
     </div>
 </div>
+<footer id="year"></footer>
+<script src="/setYear.js"></script>

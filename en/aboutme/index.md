@@ -14,3 +14,5 @@ Of course, I don't sit in front of the computer just all the time, but I like to
     <p>• Snowboarding</p>
     <p>• Visiting concerts</p>
 </ul>
+<footer id="year"></footer>
+<script src="/setYear.js"></script>

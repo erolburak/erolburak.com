@@ -27,8 +27,6 @@ struct CustomThemeHTMLFactory<Site: Website>: HTMLFactory {
                      Markdown(contentBody: index.body)
                  }
                  .class("wrapper")
-
-                 SiteFooter()
              })
     }
 
@@ -48,8 +46,6 @@ struct CustomThemeHTMLFactory<Site: Website>: HTMLFactory {
                      Markdown(contentBody: section.body)
                  }
                  .class("wrapper")
-
-                 SiteFooter()
              })
     }
 
@@ -69,8 +65,6 @@ struct CustomThemeHTMLFactory<Site: Website>: HTMLFactory {
                      Markdown(contentBody: page.body)
                  }
                  .class("wrapper")
-
-                 SiteFooter()
              })
     }
 

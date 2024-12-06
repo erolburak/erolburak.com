@@ -7,3 +7,5 @@ title: HOME
     <h2>SENIOR IOS DEVELOPER</h2>
     <img src="/images/burakerol.png" class="burakerol-image"/>
 </div>
+<footer id="year"></footer>
+<script src="/setYear.js"></script>
