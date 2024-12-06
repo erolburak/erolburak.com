@@ -14,3 +14,5 @@ Natürlich sitze ich nicht die ganze Zeit nur vor dem Computer, sondern verbring
     <p>• Snowboarden</p>
     <p>• Konzerte besuchen</p>
 </ul>
+<footer id="year"></footer>
+<script src="/setYear.js"></script>
