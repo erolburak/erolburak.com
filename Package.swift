@@ -6,7 +6,7 @@ let package = Package(
     name: "ErolburakMe",
     platforms: [
         .macOS(
-            .v14
+            .v15
         )
     ],
     products: [
