@@ -12,6 +12,6 @@ extension Theme where Site == ErolburakMe {
 
     static var customTheme: Self {
         Theme(htmlFactory: CustomThemeHTMLFactory(),
-              resourcePaths: ["Resources/CustomTheme/styles.css"])
+              resourcePaths: ["Resources/styles.css"])
     }
 }

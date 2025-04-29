@@ -27,13 +27,13 @@ struct SiteHeader<Site: Website>: Component {
 
             Wrapper {
                 Wrapper {
-                    LinkImage(image: Image("/images/linkedin.svg"),
+                    LinkImage(image: Image("/Resources/linkedin.svg"),
                               url: "https://linkedin.com/in/burakerol44")
 
-                    LinkImage(image: Image("/images/github.svg"),
+                    LinkImage(image: Image("/Resources/github.svg"),
                               url: "https://github.com/erolburak")
 
-                    LinkImage(image: Image("/images/email.svg"),
+                    LinkImage(image: Image("/Resources/email.svg"),
                               url: "mailto:erolburak@icloud.com")
                 }
                 .class("wrapper-links-left")
