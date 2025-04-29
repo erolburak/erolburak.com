@@ -5,7 +5,10 @@
 //  Created by Burak Erol on 20.10.23.
 //
 
-try ErolburakMe().publish(using: [.copyResources(),
+import Publish
+
+try ErolburakMe().publish(using: [.copyResources(to: "Resources"),
+                                  .copyFile(at: Path("Resources/CNAME")),
                                   .addMarkdownFiles(),
                                   .generateHTML(withTheme: .customTheme),
                                   .copyDefaultIndexHtml(),
