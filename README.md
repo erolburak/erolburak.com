@@ -17,9 +17,15 @@ erolburak.me
 - [Publish](https://github.com/JohnSundell/Publish)
 
 ## SCREENSHOTS
-<img width="240" alt="erolburak.me1" src="https://github.com/user-attachments/assets/f8e57253-5087-4feb-b701-f9389e659a70">
-<img width="240" alt="erolburak.me2" src="https://github.com/user-attachments/assets/535ffbe8-7d07-43ed-b9f1-ab89858b7eaf">
-<img width="240" alt="erolburak.me3" src="https://github.com/user-attachments/assets/1d36227b-22e7-40a5-9d92-282f562523d8">
-
-## HAVE FUN :)
-<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDI3emQxaHl0bm5uZmNsaXRtNzNjcDRvN2s3OXV4NmFxMnR3d2didyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Ws6T5PN7wHv3cY8xy8/giphy.gif"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/c576eecf-4659-47a9-ab89-2b67acdf8c3f">
+  <img width="240" src="https://github.com/user-attachments/assets/1274ea93-1d23-4a89-bf4a-1f6b655bf5f6">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/8f255178-be77-48eb-ab6d-f5cd25727677">
+  <img width="240" src="https://github.com/user-attachments/assets/021cc35b-0331-4cca-b2b2-2ee8d9c8fe78">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/91a33e81-f003-4cae-ae3d-6f62efe61ff5">
+  <img width="240" src="https://github.com/user-attachments/assets/b4c7faff-0494-40b7-9966-99aecfa36006">
+</picture>
