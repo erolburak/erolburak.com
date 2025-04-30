@@ -20,7 +20,7 @@ struct ErolburakMe: MultiLanguageWebsite {
     // MARK: - Properties
 
     let description = ""
-    let favicon: Favicon? = Favicon(path: "/Resources/fav.png")
+    let favicon: Favicon? = Favicon(path: "/resources/fav.png")
     let language: Language = .english
     let languages = [Language.english,
                      Language.german]

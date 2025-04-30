@@ -6,7 +6,7 @@ title: PORTFOLIO
     <h1>EROLBURAK.ME</h1>
     <div class="wrapper-links-right">
         <a href="https://github.com/erolburak/erolburak.me" target="_blank" class="wrapper-link-image-portfolio">
-            <img src="/Resources/github.svg" class="link-image-portfolio-header">
+            <img src="/resources/github.svg" class="link-image-portfolio-header">
         </a>
     </div>
 </div>
@@ -18,7 +18,7 @@ title: PORTFOLIO
     <h1>BOBBYSNEWS</h1>
     <div class="wrapper-links-right">
         <a href="https://github.com/erolburak/bobbysnews" target="_blank" class="wrapper-link-image-portfolio">
-            <img src="/Resources/github.svg" class="link-image-portfolio-header">
+            <img src="/resources/github.svg" class="link-image-portfolio-header">
         </a>
     </div>
 </div>
@@ -30,7 +30,7 @@ title: PORTFOLIO
     <h1>BOBBYSCOUNTER</h1>
     <div class="wrapper-links-right">
         <a href="https://github.com/erolburak/bobbyscounter" target="_blank" class="wrapper-link-image-portfolio">
-            <img src="/Resources/github.svg" class="link-image-portfolio-header">
+            <img src="/resources/github.svg" class="link-image-portfolio-header">
         </a>
     </div>
 </div>
@@ -42,7 +42,7 @@ title: PORTFOLIO
     <h1>BARMER ECARE</h1>
     <div class="wrapper-links-right">
         <a href="https://apps.apple.com/us/app/barmer-ecare/id1509460198" target="_blank" class="wrapper-link-image-portfolio">
-            <img src="/Resources/appstore.svg" class="link-image-portfolio-header">
+            <img src="/resources/appstore.svg" class="link-image-portfolio-header">
         </a>
     </div>
 </div>
@@ -54,7 +54,7 @@ title: PORTFOLIO
     <h1>CLAAS CONNECT FARM MANAGEMENT</h1>
     <div class="wrapper-links-right">
         <a href="https://apps.apple.com/us/app/claas-connect-farm-management/id6475955826" target="_blank" class="wrapper-link-image-portfolio">
-            <img src="/Resources/appstore.svg" class="link-image-portfolio-header">
+            <img src="/resources/appstore.svg" class="link-image-portfolio-header">
         </a>
     </div>
 </div>
@@ -66,7 +66,7 @@ title: PORTFOLIO
     <h1>INFIELD</h1>
     <div class="wrapper-links-right">
         <a href="https://apps.apple.com/us/app/infield-ehem-festivalcamp/id1577521278" target="_blank" class="wrapper-link-image-portfolio">
-            <img src="/Resources/appstore.svg" class="link-image-portfolio-header">
+            <img src="/resources/appstore.svg" class="link-image-portfolio-header">
         </a>
     </div>
 </div>
@@ -78,7 +78,7 @@ title: PORTFOLIO
     <h1>BERLINER PHILHARMONIKER</h1>
     <div class="wrapper-links-right">
         <a href="https://apps.apple.com/us/app/berliner-philharmoniker/id554616591" target="_blank" class="wrapper-link-image-portfolio">
-            <img src="/Resources/appstore.svg" class="link-image-portfolio-header">
+            <img src="/resources/appstore.svg" class="link-image-portfolio-header">
         </a>
     </div>
 </div>
@@ -87,4 +87,4 @@ title: PORTFOLIO
 <br></br>
 <br></br>
 <footer id="year"></footer>
-<script src="/Resources/setYear.js"></script>
+<script src="/resources/setYear.js"></script>

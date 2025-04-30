@@ -15,4 +15,4 @@ Natürlich sitze ich nicht die ganze Zeit nur vor dem Computer, sondern verbring
     <p>• Konzerte besuchen</p>
 </ul>
 <footer id="year"></footer>
-<script src="/Resources/setYear.js"></script>
+<script src="/resources/setYear.js"></script>
