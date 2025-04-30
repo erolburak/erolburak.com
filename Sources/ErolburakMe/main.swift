@@ -7,8 +7,9 @@
 
 import Publish
 
-try ErolburakMe().publish(using: [.copyResources(to: "Resources"),
-                                  .copyFile(at: Path("Resources/CNAME")),
+try ErolburakMe().publish(using: [.copyResources(to: "resources"),
+                                  .copyFile(at: Path("resources/CNAME")),
+                                  .copyFile(at: Path("resources/README.md")),
                                   .addMarkdownFiles(),
                                   .generateHTML(withTheme: .customTheme),
                                   .copyDefaultIndexHtml(),
