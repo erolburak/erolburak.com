@@ -1,5 +1,5 @@
 //
-//  ErolburakMe.swift
+//  ErolburakCom.swift
 //
 //
 //  Created by Burak Erol on 20.10.23.
@@ -9,7 +9,7 @@ import Foundation
 import Plot
 import Publish
 
-struct ErolburakMe: MultiLanguageWebsite {
+struct ErolburakCom: MultiLanguageWebsite {
     // MARK: - Type Definitions
 
     enum SectionID: String, WebsiteSectionID {
@@ -25,7 +25,7 @@ struct ErolburakMe: MultiLanguageWebsite {
     let languages = [Language.english,
                      Language.german]
     let name = "[BE]"
-    let url = URL(string: "https://erolburak.me")!
+    let url = URL(string: "https://erolburak.com")!
     var imagePath: Path? { favicon?.path }
 
     struct ItemMetadata: MultiLanguageWebsiteItemMetadata {

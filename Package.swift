@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "ErolburakMe",
+    name: "ErolburakCom",
     platforms: [
         .macOS(
             .v15
@@ -11,9 +11,9 @@ let package = Package(
     ],
     products: [
         .executable(
-            name: "ErolburakMe",
+            name: "ErolburakCom",
             targets: [
-                "ErolburakMe"
+                "ErolburakCom"
             ]
         )
     ],
@@ -29,7 +29,7 @@ let package = Package(
     ],
     targets: [
         .executableTarget(
-            name: "ErolburakMe",
+            name: "ErolburakCom",
             dependencies: [
                 "Publish"
             ]

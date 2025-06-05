@@ -7,7 +7,7 @@
 
 import Publish
 
-extension Theme where Site == ErolburakMe {
+extension Theme where Site == ErolburakCom {
     // MARK: - Properties
 
     static var customTheme: Self {

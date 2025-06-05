@@ -7,7 +7,7 @@
 
 import Publish
 
-try ErolburakMe().publish(using: [.copyResources(to: "resources"),
+try ErolburakCom().publish(using: [.copyResources(to: "resources"),
                                   .copyFile(at: Path("resources/CNAME")),
                                   .copyFile(at: Path("resources/README.md")),
                                   .addMarkdownFiles(),
