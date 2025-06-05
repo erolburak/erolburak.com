@@ -3,15 +3,15 @@ title: PORTFOLIO
 ---
 
 <div class="wrapper-portfolio-header">
-    <h1>EROLBURAK.ME</h1>
+    <h1>EROLBURAK.COM</h1>
     <div class="wrapper-links-right">
-        <a href="https://github.com/erolburak/erolburak.me" target="_blank" class="wrapper-link-image-portfolio">
+        <a href="https://github.com/erolburak/erolburak.com" target="_blank" class="wrapper-link-image-portfolio">
             <img src="/resources/github.svg" class="link-image-portfolio-header">
         </a>
     </div>
 </div>
 <br></br>
-<p><b>erolburak.me</b> ist ein eigenes Projekt von mir, welche zur Erstellung einer statischen Webseite dient, die ich mithilfe von <a href="https://github.com/JohnSundell/Publish" target="_blank">Publish</a> entwickelt habe. Die Webeite beinhaltet mein Portfolio als Senior iOS Entwickler und Informationen über mich. Im Portfolio Bereich werden meine privaten Apps gelistet, die man sich öffentlich auf meinem <a href="https://github.com/erolburak" target="_blank">GitHub Profil</a> ansehen kann, aber auch Apps an denen ich als Angestellter mitgewirkt habe. Das Projekt und aktuelle Screenshots findet man auf meinem <a href="https://github.com/erolburak/erolburak.me" target="_blank">GitHub Profil</a>.</p>
+<p><b>erolburak.com</b> ist ein eigenes Projekt von mir, welche zur Erstellung einer statischen Webseite dient, die ich mithilfe von <a href="https://github.com/JohnSundell/Publish" target="_blank">Publish</a> entwickelt habe. Die Webeite beinhaltet mein Portfolio als Senior iOS Entwickler und Informationen über mich. Im Portfolio Bereich werden meine privaten Apps gelistet, die man sich öffentlich auf meinem <a href="https://github.com/erolburak" target="_blank">GitHub Profil</a> ansehen kann, aber auch Apps an denen ich als Angestellter mitgewirkt habe. Das Projekt und aktuelle Screenshots findet man auf meinem <a href="https://github.com/erolburak/erolburak.com" target="_blank">GitHub Profil</a>.</p>
 <br></br>
 <br></br>
 <div class="wrapper-portfolio-header">

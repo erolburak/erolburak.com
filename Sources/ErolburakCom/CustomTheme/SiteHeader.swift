@@ -64,9 +64,9 @@ struct SiteHeader<Site: Website>: Component {
                 let section = context.sections[id]
                 var title = ""
 
-                if section.id.rawValue == ErolburakMe.SectionID.portfolio.rawValue {
+                if section.id.rawValue == ErolburakCom.SectionID.portfolio.rawValue {
                     title = "Portfolio"
-                } else if section.id.rawValue == ErolburakMe.SectionID.aboutme.rawValue {
+                } else if section.id.rawValue == ErolburakCom.SectionID.aboutme.rawValue {
                     title = language == .german ? "Über mich" : "About me"
                 }
 

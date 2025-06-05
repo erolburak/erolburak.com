@@ -3,15 +3,15 @@ title: PORTFOLIO
 ---
 
 <div class="wrapper-portfolio-header">
-    <h1>EROLBURAK.ME</h1>
+    <h1>EROLBURAK.COM</h1>
     <div class="wrapper-links-right">
-        <a href="https://github.com/erolburak/erolburak.me" target="_blank" class="wrapper-link-image-portfolio">
+        <a href="https://github.com/erolburak/erolburak.com" target="_blank" class="wrapper-link-image-portfolio">
             <img src="/resources/github.svg" class="link-image-portfolio-header">
         </a>
     </div>
 </div>
 <br></br>
-<p><b>erolburak.me</b> is my own project, which is used to create a static website that I developed using <a href="https://github.com/JohnSundell/Publish" target="_blank">Publish</a>. The website contains my portfolio as a Senior iOS Developer and information about me. The portfolio area lists my private apps, which can be viewed publicly on my <a href="https://github.com/erolburak" target="_blank">GitHub Profile</a>, but also apps that I have worked on as an employee. The project and current screenshots can be found on my <a href="https://github.com/erolburak/erolburak.me" target="_blank">GitHub Profile</a>.</p>
+<p><b>erolburak.com</b> is my own project, which is used to create a static website that I developed using <a href="https://github.com/JohnSundell/Publish" target="_blank">Publish</a>. The website contains my portfolio as a Senior iOS Developer and information about me. The portfolio area lists my private apps, which can be viewed publicly on my <a href="https://github.com/erolburak" target="_blank">GitHub Profile</a>, but also apps that I have worked on as an employee. The project and current screenshots can be found on my <a href="https://github.com/erolburak/erolburak.com" target="_blank">GitHub Profile</a>.</p>
 <br></br>
 <br></br>
 <div class="wrapper-portfolio-header">
