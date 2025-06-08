@@ -25,8 +25,8 @@ extension Node where Context == HTML.DocumentContext {
               .unwrap(site.favicon) {
                   .favicon($0)
               },
-              .unwrap(location.imagePath ?? site.imagePath) { path in
-                  .socialImageLink(site.url(for: path))
+              .unwrap(location.imagePath ?? site.imagePath) {
+                  .socialImageLink(site.url(for: $0))
               })
     }
 }

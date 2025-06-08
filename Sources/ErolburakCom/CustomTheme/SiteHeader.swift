@@ -60,8 +60,8 @@ struct SiteHeader<Site: Website>: Component {
 
     private func Section() -> Component {
         Navigation {
-            List(Site.SectionID.allCases) { id in
-                let section = context.sections[id]
+            List(Site.SectionID.allCases) {
+                let section = context.sections[$0]
                 var title = ""
 
                 if section.id.rawValue == ErolburakCom.SectionID.portfolio.rawValue {
@@ -72,7 +72,7 @@ struct SiteHeader<Site: Website>: Component {
 
                 return Link(title.uppercased(),
                             url: languagePath + section.path.string)
-                    .class(id == selectedSectionId ? "selected" : "")
+                    .class($0 == selectedSectionId ? "selected" : "")
             }
         }
     }
