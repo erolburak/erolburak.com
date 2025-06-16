@@ -1,5 +1,5 @@
 {
-  "originHash" : "f3538b5b29fccdf255846649586173eb68e01a3dfb297902f88e055b967b51aa",
+  "originHash" : "9a00a682bdaa0c0bfc0bbed270fd78ae4b09db422e5e00947a0499402555c3a8",
   "pins" : [
     {
       "identity" : "codextended",
@@ -70,7 +70,7 @@
       "location" : "https://github.com/nicklockwood/SwiftFormat.git",
       "state" : {
         "branch" : "main",
-        "revision" : "f2a62ed6082b3e52e27a79ff89811b172c1f1c6e"
+        "revision" : "6ebb96ce454ddb036320104a1160350ee9581767"
       }
     }
   ],
