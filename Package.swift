@@ -21,10 +21,6 @@ let package = Package(
         .package(
             url: "https://github.com/Ze0nC/Publish.git",
             branch: "Multi-Language"
-        ),
-        .package(
-            url: "https://github.com/nicklockwood/SwiftFormat.git",
-            branch: "main"
         )
     ],
     targets: [
