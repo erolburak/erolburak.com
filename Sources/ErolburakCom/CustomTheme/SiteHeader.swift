@@ -23,34 +23,46 @@ struct SiteHeader<Site: Website>: Component {
 
     var body: Component {
         Header {
-            let lastPath = selectedSectionId != nil ? context.sections[selectedSectionId!].path.string + "/" : ""
+            let lastPath =
+                selectedSectionId != nil
+                ? context.sections[selectedSectionId!].path.string + "/" : ""
 
             Wrapper {
                 Wrapper {
-                    LinkImage(image: Image("/resources/linkedin.svg"),
-                              url: "https://linkedin.com/in/burakerol44")
+                    LinkImage(
+                        image: Image("/resources/linkedin.svg"),
+                        url: "https://linkedin.com/in/burakerol44"
+                    )
 
-                    LinkImage(image: Image("/resources/github.svg"),
-                              url: "https://github.com/erolburak")
+                    LinkImage(
+                        image: Image("/resources/github.svg"),
+                        url: "https://github.com/erolburak"
+                    )
 
-                    LinkImage(image: Image("/resources/email.svg"),
-                              url: "mailto:erolburak@icloud.com")
+                    LinkImage(
+                        image: Image("/resources/email.svg"),
+                        url: "mailto:erolburak@icloud.com"
+                    )
                 }
                 .class("wrapper-links-left")
 
                 Wrapper {
-                    Link(language == .german ? "DE" : "EN",
-                         url: (language == .german ? "/en/" : "/de/") + lastPath)
-                        .class("link-language")
+                    Link(
+                        language == .german ? "DE" : "EN",
+                        url: (language == .german ? "/en/" : "/de/") + lastPath
+                    )
+                    .class("link-language")
                 }
                 .class("wrapper-link-language")
             }
             .class("wrapper-links")
 
             Wrapper {
-                Link(context.site.name.uppercased(),
-                     url: languagePath)
-                    .class("site-name")
+                Link(
+                    context.site.name.uppercased(),
+                    url: languagePath
+                )
+                .class("site-name")
 
                 Section()
             }
@@ -70,9 +82,11 @@ struct SiteHeader<Site: Website>: Component {
                     title = language == .german ? "Über mich" : "About me"
                 }
 
-                return Link(title.uppercased(),
-                            url: languagePath + section.path.string)
-                    .class($0 == selectedSectionId ? "selected" : "")
+                return Link(
+                    title.uppercased(),
+                    url: languagePath + section.path.string
+                )
+                .class($0 == selectedSectionId ? "selected" : "")
             }
         }
     }

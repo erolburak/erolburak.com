@@ -22,8 +22,10 @@ struct ErolburakCom: MultiLanguageWebsite {
     let description = ""
     let favicon: Favicon? = Favicon(path: "/resources/fav.png")
     let language: Language = .english
-    let languages = [Language.english,
-                     Language.german]
+    let languages = [
+        Language.english,
+        Language.german,
+    ]
     let name = "[BE]"
     let url = URL(string: "https://erolburak.com")!
     var imagePath: Path? { favicon?.path }

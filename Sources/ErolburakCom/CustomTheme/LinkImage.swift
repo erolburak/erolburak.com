@@ -16,9 +16,11 @@ struct LinkImage: Component {
     // MARK: - Layouts
 
     var body: Component {
-        Node.a(.href(url),
-               .target(.blank),
-               .component(image.class("link-image")),
-               .class("wrapper-link-image"))
+        Node.a(
+            .href(url),
+            .target(.blank),
+            .component(image.class("link-image")),
+            .class("wrapper-link-image")
+        )
     }
 }

@@ -7,13 +7,13 @@ erolburak.com
 **erolburak.com** is my own project, which is used to create a static website that I developed using [Publish](https://github.com/JohnSundell/Publish). The website contains my portfolio as a Senior iOS Developer and information about me. The portfolio area lists my private apps, which can be viewed publicly on my [GitHub Profile](https://github.com/erolburak), but also apps that I have worked on as an employee.
 
 ## SETUP
-- IDE: Xcode
+- [Xcode](https://developer.apple.com/xcode/)
 - [SPM](https://github.com/swiftlang/swift-package-manager)
-- [SwiftFormat](https://github.com/nicklockwood/SwiftFormat)
-- CI/CD: [GitHub Actions](https://docs.github.com/en/actions)
+- [Swift-Format](https://github.com/swiftlang/swift-format)
+- [GitHub Actions](https://docs.github.com/en/actions)
 
 ## APIS
-- Swift
+- [Swift](https://github.com/swiftlang/swift)
 - [Publish](https://github.com/JohnSundell/Publish)
 
 ## SCREENSHOTS
