@@ -1,0 +1,36 @@
+import Ignite
+
+struct HomeSite: Site {
+    // MARK: - Properties
+
+    let author = "Burak Erol"
+    let builtInIconsEnabled = true
+    let favicon = URL(string: "/images/fav.png")
+
+    let homePage = HomePage(
+        endpoint: .home,
+        language: .en
+    )
+
+    let layout = MainLayout()
+    let name = "HOME"
+    let titleSuffix = " | [BE]"
+    let url = URL(static: ErolburakComWebsite.url)
+
+    var staticPages: [any StaticPage] {
+        for language in Languages.allCases {
+            HomePage(
+                endpoint: .home,
+                language: language
+            )
+            PortfolioPage(
+                endpoint: .portfolio,
+                language: language
+            )
+            AboutMePage(
+                endpoint: .aboutme,
+                language: language
+            )
+        }
+    }
+}
