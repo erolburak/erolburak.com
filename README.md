@@ -4,7 +4,7 @@
 erolburak.com
 
 ## DESCRIPTION
-**erolburak.com** is my own project, which is used to create a static website that I developed using [Publish](https://github.com/JohnSundell/Publish). The website contains my portfolio as a Senior iOS Developer and information about me. The portfolio area lists my private apps, which can be viewed publicly on my [GitHub Profile](https://github.com/erolburak), but also apps that I have worked on as an employee.
+**erolburak.com** is my own project, which is used to create a static website that I developed using [Ignite](https://github.com/twostraws/Ignite). The website contains my portfolio as a Senior iOS Developer and information about me. The portfolio area lists my private apps, which can be viewed publicly on my [GitHub Profile](https://github.com/erolburak), but also apps that I have worked on as an employee.
 
 ## SETUP
 - [Xcode](https://developer.apple.com/xcode/)
@@ -14,7 +14,7 @@ erolburak.com
 
 ## APIS
 - [Swift](https://github.com/swiftlang/swift)
-- [Publish](https://github.com/JohnSundell/Publish)
+- [Ignite](https://github.com/twostraws/Ignite)
 
 ## SCREENSHOTS
 <img width="240" src="https://github.com/user-attachments/assets/4f7b43c9-286b-48bd-ab93-e2ef879a5972#gh-light-mode-only">

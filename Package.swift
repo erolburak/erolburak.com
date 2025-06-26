@@ -9,25 +9,17 @@ let package = Package(
             .v26
         )
     ],
-    products: [
-        .executable(
-            name: "ErolburakCom",
-            targets: [
-                "ErolburakCom"
-            ]
-        )
-    ],
     dependencies: [
         .package(
-            url: "https://github.com/Ze0nC/Publish.git",
-            branch: "Multi-Language"
+            url: "https://github.com/twostraws/Ignite.git",
+            branch: "main"
         )
     ],
     targets: [
         .executableTarget(
             name: "ErolburakCom",
             dependencies: [
-                "Publish"
+                "Ignite"
             ]
         )
     ]
