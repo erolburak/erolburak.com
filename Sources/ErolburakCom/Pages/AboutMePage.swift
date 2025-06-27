@@ -22,9 +22,12 @@ struct AboutMePage: StaticPage {
             language: language
         )
 
-        VStack(spacing: 32) {
+        VStack(
+            alignment: .leading,
+            spacing: 24
+        ) {
             Text(language == .en ? "HELLO, WORLD!" : "HALLO, WELT!")
-                .font(.title2)
+                .font(.title4)
                 .fontWeight(.black)
 
             Text(
@@ -51,9 +54,20 @@ struct AboutMePage: StaticPage {
 
                 Text("• \(language == .en ? "Visiting concerts" : "Konzerte besuchen")")
             }
+            .padding(.leading)
         }
-        .class("body")
-        .font(.title4)
+        .class("body-content")
+        .font(.body)
         .fontWeight(.thin)
+        .padding(
+            .bottom,
+            64
+        )
+        .padding(
+            [
+                .horizontal,
+                .top,
+            ]
+        )
     }
 }

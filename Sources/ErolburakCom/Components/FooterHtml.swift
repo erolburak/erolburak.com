@@ -4,12 +4,24 @@ struct FooterHtml: HTML {
     // MARK: - Layouts
 
     var body: some HTML {
-        Text("")
-            .class("footer")
-            .cornerRadius(8)
-            .font(.xxSmall)
-            .id("footer")
+        Group {
+            Text("© Burak Erol")
+                .padding(
+                    .horizontal,
+                    6
+                )
+                .padding(
+                    .vertical,
+                    2
+                )
 
-        Script(file: "/js/footer.js")
+            Script(file: "/js/footer.js")
+        }
+        .class("footer")
+        .cornerRadius(6)
+        .font(.xxxSmall)
+        .fontWeight(.thin)
+        .margin()
+        .id("footer")
     }
 }

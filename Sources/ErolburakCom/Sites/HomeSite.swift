@@ -19,16 +19,16 @@ struct HomeSite: Site {
 
     var staticPages: [any StaticPage] {
         for language in Languages.allCases {
+            AboutMePage(
+                endpoint: .aboutme,
+                language: language
+            )
             HomePage(
                 endpoint: .home,
                 language: language
             )
             PortfolioPage(
                 endpoint: .portfolio,
-                language: language
-            )
-            AboutMePage(
-                endpoint: .aboutme,
                 language: language
             )
         }

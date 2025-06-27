@@ -22,7 +22,7 @@ struct PortfolioPage: StaticPage {
             language: language
         )
 
-        VStack(spacing: 80) {
+        VStack(spacing: 64) {
             PortfolioSection(
                 image: "/images/github.svg",
                 markdown: language == .en
@@ -94,7 +94,17 @@ struct PortfolioPage: StaticPage {
                 title: "BERLINER PHILHARMONIKER"
             )
         }
-        .class("body")
+        .class("body-content")
+        .padding(
+            .bottom,
+            64
+        )
+        .padding(
+            [
+                .horizontal,
+                .top,
+            ]
+        )
     }
 
     private func PortfolioSection(
@@ -103,10 +113,10 @@ struct PortfolioPage: StaticPage {
         target: String,
         title: String
     ) -> some HTML {
-        VStack(spacing: 32) {
+        VStack(spacing: 24) {
             HStack {
                 Text(title)
-                    .font(.title2)
+                    .font(.title4)
                     .fontWeight(.black)
                     .padding(.trailing)
 
@@ -121,15 +131,11 @@ struct PortfolioPage: StaticPage {
                         )
                 }
                 .target(.blank)
-                .frame(
-                    width: 32,
-                    height: 32
-                )
             }
             .frame(width: .percent(100%))
 
             Text(markdown: markdown)
-                .font(.title4)
+                .font(.body)
                 .fontWeight(.thin)
         }
     }
