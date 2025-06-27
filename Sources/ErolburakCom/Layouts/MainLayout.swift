@@ -13,6 +13,7 @@ struct MainLayout: Layout {
 
         Body {
             content
+                .class("body-content")
 
             FooterHtml()
         }

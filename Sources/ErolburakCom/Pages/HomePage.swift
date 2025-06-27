@@ -22,24 +22,32 @@ struct HomePage: StaticPage {
             language: language
         )
 
-        VStack(spacing: .zero) {
-            Text("BURAK EROL")
-                .font(.title2)
-                .fontWeight(.black)
+        VStack(spacing: 24) {
+            VStack(alignment: .leading) {
+                Text("BURAK EROL")
+                    .font(.title4)
+                    .fontWeight(.black)
 
-            Text(language == .en ? "SENIOR IOS DEVELOPER" : "SENIOR IOS ENTWICKLER")
-                .font(.title4)
-                .fontWeight(.ultraLight)
-                .foregroundStyle(.darkGray)
-                .padding(
-                    .bottom,
-                    32
-                )
+                Text(language == .en ? "SENIOR IOS DEVELOPER" : "SENIOR IOS ENTWICKLER")
+                    .font(.title6)
+                    .fontWeight(.thin)
+            }
+            .frame(width: .percent(100%))
 
             Image("/images/burakerol.png")
                 .frame(width: .percent(75%))
         }
-        .class("body")
-        .horizontalAlignment(.center)
+        .class("body-content")
+        .frame(width: .percent(100%))
+        .padding(
+            .bottom,
+            64
+        )
+        .padding(
+            [
+                .horizontal,
+                .top,
+            ]
+        )
     }
 }

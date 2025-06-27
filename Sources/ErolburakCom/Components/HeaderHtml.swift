@@ -10,59 +10,56 @@ struct HeaderHtml: HTML {
 
     var body: some HTML {
         VStack {
-            HStack(spacing: 4) {
-                LinkImage(
-                    image: "/images/linkedin.svg",
-                    target: "https://linkedin.com/in/burakerol44"
-                )
+            VStack(
+                alignment: .leading,
+                spacing: 8
+            ) {
+                HStack {
+                    LinkImage(
+                        image: "/images/linkedin.svg",
+                        target: "https://linkedin.com/in/burakerol44"
+                    )
 
-                LinkImage(
-                    image: "/images/github.svg",
-                    target: "https://github.com/erolburak"
-                )
+                    LinkImage(
+                        image: "/images/github.svg",
+                        target: "https://github.com/erolburak"
+                    )
 
-                LinkImage(
-                    image: "/images/email.svg",
-                    target: "mailto:erolburak@icloud.com"
-                )
+                    LinkImage(
+                        image: "/images/email.svg",
+                        target: "mailto:erolburak@icloud.com"
+                    )
 
-                Spacer()
+                    Spacer()
 
-                Link(
-                    language == .en ? Languages.de.localized : Languages.en.localized,
-                    target:
-                        "\(ErolburakComWebsite.url)\(language == .en ? Languages.de.path : Languages.en.path)\(endpoint.path)"
-                )
-                .class("link-image-and-language")
-                .cornerRadius(8)
-                .frame(
-                    width: 32,
-                    height: 32
-                )
-                .textDecoration(.none)
+                    Link(
+                        language == .en ? Languages.de.localized : Languages.en.localized,
+                        target:
+                            "\(ErolburakComWebsite.url)\(language == .en ? Languages.de.path : Languages.en.path)\(endpoint.path)"
+                    )
+                    .fontWeight(.black)
+                    .textDecoration(.none)
+                }
+                .frame(width: .percent(100%))
+
+                HStack {
+                    LinkSection(endpoint: .home)
+
+                    LinkSection(endpoint: .portfolio)
+
+                    LinkSection(endpoint: .aboutme)
+                }
             }
+            .class("body-header")
             .frame(width: .percent(100%))
-            .padding()
-
-            Link(
-                "[BE]",
-                target: "\(ErolburakComWebsite.url)\(language.path)\(Endpoints.home.path)"
-            )
-            .class("link-title")
-            .textDecoration(.none)
-            .padding(.bottom)
-
-            HStack(spacing: 40) {
-                LinkSection(endpoint: .portfolio)
-
-                LinkSection(endpoint: .aboutme)
-            }
+            .padding(.horizontal)
             .padding(
-                .bottom,
-                32
+                .vertical,
+                8
             )
         }
-        .class("header")
+        .class("body-header-background")
+        .ignorePageGutters()
     }
 
     private func LinkImage(
@@ -72,18 +69,9 @@ struct HeaderHtml: HTML {
         Link(target: target) {
             Image(image)
                 .class("image")
-                .frame(
-                    width: 16,
-                    height: 16
-                )
+                .frame(width: 16)
         }
         .target(.blank)
-        .class("link-image-and-language")
-        .cornerRadius(8)
-        .frame(
-            width: 32,
-            height: 32
-        )
         .textDecoration(.none)
     }
 
@@ -92,10 +80,7 @@ struct HeaderHtml: HTML {
             endpoint.title(language: language),
             target: "\(ErolburakComWebsite.url)\(language.path)\(endpoint.path)"
         )
-        .class(self.endpoint == endpoint ? "link-section-selected" : "link-section")
-        .cornerRadius(8)
-        .frame(height: 40)
-        .padding()
+        .fontWeight(self.endpoint == endpoint ? .black : .thin)
         .textDecoration(.none)
     }
 }
