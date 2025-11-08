@@ -21,7 +21,9 @@ struct FooterHtml: HTML {
         .cornerRadius(6)
         .font(.xxxSmall)
         .fontWeight(.thin)
+        .horizontalAlignment(.trailing)
         .margin()
+        .position(.fixedBottom)
         .id("footer")
     }
 }
