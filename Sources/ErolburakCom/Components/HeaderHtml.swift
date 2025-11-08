@@ -59,6 +59,11 @@ struct HeaderHtml: HTML {
             )
         }
         .class("body-header-background")
+        .position(.fixedTop)
+        .style(
+            .zIndex,
+            "1"
+        )
         .ignorePageGutters()
     }
 
