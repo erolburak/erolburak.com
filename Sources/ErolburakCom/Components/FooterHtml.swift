@@ -23,7 +23,18 @@ struct FooterHtml: HTML {
         .fontWeight(.thin)
         .horizontalAlignment(.trailing)
         .margin()
-        .position(.fixedBottom)
+        .style(
+            .bottom,
+            "0"
+        )
+        .style(
+            .position,
+            "fixed"
+        )
+        .style(
+            .right,
+            "0"
+        )
         .id("footer")
     }
 }
