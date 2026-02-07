@@ -5,7 +5,6 @@ struct HomeSite: Site {
 
     let author = "Burak Erol"
     let builtInIconsEnabled = true
-    let favicon = URL(string: "/images/fav.png")
 
     let homePage = HomePage(
         endpoint: .home,
