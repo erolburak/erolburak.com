@@ -6,8 +6,8 @@ struct MainLayout: Layout {
     var body: some Document {
         Head {
             MetaLink(
-                href: "/site.webmanifest",
-                rel: .manifest
+                href: "/css/styles.css",
+                rel: .stylesheet
             )
 
             MetaTag(
@@ -16,8 +16,21 @@ struct MainLayout: Layout {
             )
 
             MetaLink(
-                href: "/icons/apple-touch.png",
+                href: "/icons/fav-180x180.png",
                 rel: "apple-touch-icon"
+            )
+            .customAttribute(
+                name: "sizes",
+                value: "180x180"
+            )
+
+            MetaLink(
+                href: "/icons/fav-1024x1024.png",
+                rel: "apple-touch-icon"
+            )
+            .customAttribute(
+                name: "sizes",
+                value: "1024x1024"
             )
 
             MetaLink(
@@ -30,8 +43,31 @@ struct MainLayout: Layout {
             )
 
             MetaLink(
-                href: "/css/styles.css",
-                rel: .stylesheet
+                href: "/icons/mask.svg",
+                rel: "mask-icon"
+            )
+
+            MetaLink(
+                href: "/icons/fav.ico",
+                rel: .icon
+            )
+            .customAttribute(
+                name: "type",
+                value: "image/x-icon"
+            )
+
+            MetaLink(
+                href: "/icons/fav.ico",
+                rel: "shortcut icon"
+            )
+            .customAttribute(
+                name: "type",
+                value: "image/x-icon"
+            )
+
+            MetaLink(
+                href: "/site.webmanifest",
+                rel: .manifest
             )
         }
 
