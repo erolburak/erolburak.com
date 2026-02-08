@@ -4,8 +4,6 @@ struct HomeSite: Site {
     // MARK: - Properties
 
     let author = "Burak Erol"
-    let builtInIconsEnabled = true
-    let favicon = URL(string: "/fav/apple-touch-icon-1024x1024.png")
 
     let homePage = HomePage(
         endpoint: .home,
