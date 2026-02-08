@@ -5,17 +5,35 @@ struct MainLayout: Layout {
 
     var body: some Document {
         Head {
+            for size in Sizes.AppleTouch.allCases {
+                MetaLink(
+                    href: "/fav/apple-touch-icon-\(size.localized).png",
+                    rel: "apple-touch-icon"
+                )
+                .customAttribute(
+                    name: "sizes",
+                    value: size.localized
+                )
+            }
+
+            for size in Sizes.Fav.allCases {
+                MetaLink(
+                    href: "/fav/favicon-\(size.localized).png",
+                    rel: .icon
+                )
+                .customAttribute(
+                    name: "type",
+                    value: "image/png"
+                )
+                .customAttribute(
+                    name: "sizes",
+                    value: size.localized
+                )
+            }
+
             MetaLink(
-                href: "/fav/favicon-96x96.png",
-                rel: .icon
-            )
-            .customAttribute(
-                name: "type",
-                value: "image/png"
-            )
-            .customAttribute(
-                name: "sizes",
-                value: "96x96"
+                href: "/fav/favicon.ico",
+                rel: "shortcut icon"
             )
 
             MetaLink(
@@ -25,20 +43,6 @@ struct MainLayout: Layout {
             .customAttribute(
                 name: "type",
                 value: "image/svg+xml"
-            )
-
-            MetaLink(
-                href: "/fav/favicon.ico",
-                rel: "shortcut icon"
-            )
-
-            MetaLink(
-                href: "/fav/apple-touch-icon.png",
-                rel: "apple-touch-icon"
-            )
-            .customAttribute(
-                name: "sizes",
-                value: "180x180"
             )
 
             MetaTag(
