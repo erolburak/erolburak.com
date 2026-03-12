@@ -29,7 +29,7 @@ struct HomePage: StaticPage {
                         .font(.title4)
                         .fontWeight(.black)
 
-                    Text(language == .en ? "SENIOR IOS DEVELOPER" : "SENIOR IOS ENTWICKLER")
+                    Text(language == .en ? "SENIOR IOS ENGINEER" : "SENIOR IOS ENTWICKLER")
                         .font(.title6)
                         .fontWeight(.thin)
                 }
