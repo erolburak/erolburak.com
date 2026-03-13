@@ -17,7 +17,7 @@ struct HeaderHtml: HTML {
                 HStack {
                     LinkImage(
                         image: "/images/linkedin.svg",
-                        target: "https://linkedin.com/in/burakerol44"
+                        target: "https://linkedin.com/in/erolburak44"
                     )
 
                     LinkImage(
